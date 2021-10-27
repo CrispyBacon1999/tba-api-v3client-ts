@@ -1,9 +1,9 @@
 {
     "compilerOptions": {
         "target": "es2015",
-        "module": "commonjs",
+        "module": "es2015",
         "declaration": true,
-        "outDir": "./lib/cjs",
+        "outDir": "./lib/esm",
         "strict": true
     },
     "include": ["gen"],
