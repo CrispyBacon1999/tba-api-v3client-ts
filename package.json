@@ -7,7 +7,7 @@
     "types": "lib/esm/index.d.ts",
     "scripts": {
         "prepare": "npm run generate && npm run build",
-        "generate": "openapi -i https://www.thebluealliance.com/swagger/api_v3.json -o gen",
+        "generate": "openapi -i https://raw.githubusercontent.com/CrispyBacon1999/the-blue-alliance/eff6d0bf012d4bf0ab15a7b2446f8f7277fe10b6/src/backend/web/static/swagger/api_v3.json -o gen",
         "build": "tsc -p tsconfig.json && tsc -p tsconfig-esm.json"
     },
     "author": "Josh Bacon",
